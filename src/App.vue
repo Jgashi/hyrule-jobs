@@ -13,16 +13,6 @@ export default defineComponent({
   name: 'App',
   components: { JobList },
   setup() {
-    // const state = reactive({
-    //   name: 'Link',
-    //   age: 25 as string | number
-    // });
-    // state.name = 999 //connot change type
-    // state.age = '26'
-    // return { ...toRefs(state) };
-    // const name = ref('link');
-    // const age = ref<number | string>(25);
-    // return { name, age };
     const jobs = ref<Job[]>([
       {
         title: 'farm worker',
