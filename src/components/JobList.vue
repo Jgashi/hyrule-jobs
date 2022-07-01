@@ -21,7 +21,7 @@
 </template>
 
 <script lang="ts">
-import { computed, defineComponent, PropType, toRef } from 'vue';
+import { computed, defineComponent, PropType } from 'vue';
 import Job from '@/types/Job123';
 import OrederTerm from '@/types/OrderTerm';
 
